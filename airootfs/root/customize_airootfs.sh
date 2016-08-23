@@ -2,10 +2,12 @@
 
 set -e -u
 
-sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+#sed -i 's/#\(en_US\.UTF-8\)/\1/' /etc/locale.gen
+sed -i 's/#\(fr_FR\.UTF-8\)/\1/' /etc/locale.gen
 locale-gen
 
-ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+#ln -sf /usr/share/zoneinfo/UTC /etc/localtime
+ln -sf /usr/share/zoneinfo/Europe/Paris /etc/localtime
 
 usermod -s /usr/bin/zsh root
 cp -aT /etc/skel/ /root/
