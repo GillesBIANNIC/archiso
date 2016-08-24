@@ -64,3 +64,6 @@ wvdial
 xl2tpd
 zd1211-firmware
 git
+xorg
+gdm
+gnome
