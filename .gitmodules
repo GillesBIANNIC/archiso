@@ -1,0 +1,3 @@
+[submodule "airootfs/etc/skel/.oh-my-zsh"]
+	path = airootfs/etc/skel/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh
