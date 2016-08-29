@@ -27,7 +27,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+a kill
@@ -171,5 +171,5 @@ bar {
 # Tip: To find out what these values might be run:
 #       xprop | grep -i 'role'#
 
-#for_window [class="^Terminator$"] border none
+for_window [class="^Terminator$"] border none
 #for_window [class="^Firefox$"] border none
